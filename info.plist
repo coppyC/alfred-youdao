@@ -167,6 +167,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C2D76E0A-DE00-4A85-89AE-84E3EC5457D6</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -213,23 +230,6 @@ echo `./jxaESM.js ./translate.js $query`</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>698BE733-C2E3-4C8B-955A-42EFCC09A4AC</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>C2D76E0A-DE00-4A85-89AE-84E3EC5457D6</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -309,31 +309,6 @@ echo `./jxaESM.js ./translate.js $query`</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alignment</key>
-				<integer>0</integer>
-				<key>backgroundcolor</key>
-				<string></string>
-				<key>fadespeed</key>
-				<integer>0</integer>
-				<key>fillmode</key>
-				<integer>0</integer>
-				<key>font</key>
-				<string></string>
-				<key>largetypetext</key>
-				<string>{query}</string>
-				<key>textcolor</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
-			<key>uid</key>
-			<string>13E02884-D520-4F7C-AD74-113765B523B6</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -372,6 +347,31 @@ echo `./jxaESM.js ./ocr.js $imgBase`</string>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>EF911C81-95CB-4419-B88F-E52C89CF7A5D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>13E02884-D520-4F7C-AD74-113765B523B6</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -481,6 +481,6 @@ echo `./jxaESM.js ./ocr.js $imgBase`</string>
 	<key>version</key>
 	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/coppyC/alfred-youdao</string>
 </dict>
 </plist>
