@@ -29,6 +29,7 @@ import curl from './utils/curl'
  */
 function youDaoTranslate(query) {
   // 备用 appKey: 2423360539ba5632
+  // http://ai.youdao.com/product-fanyi-text.s
   return curl('https://aidemo.youdao.com/trans', {
     method: 'POST',
     headers: {
@@ -48,7 +49,6 @@ export default function (argv) {
   const q = argv.join(' ').replace(/[a-z][A-Z]/g, $$ => $$[0] + ' ' + $$[1].toLowerCase())
   if (/^[a-z]$/.test(q)) delay(30)
   const result = youDaoTranslate(q)
-  console.log(JSON.stringify(result))
   if (result.errorCode == '411')
     return JSON.stringify({
       items: [{

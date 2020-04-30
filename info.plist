@@ -65,7 +65,7 @@
 				<key>modifiers</key>
 				<integer>131072</integer>
 				<key>modifiersubtext</key>
-				<string>to upper case</string>
+				<string>to BigCamelCase</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -309,6 +309,31 @@ echo `./jxaESM.js ./translate.js $query`</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>13E02884-D520-4F7C-AD74-113765B523B6</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -347,31 +372,6 @@ echo `./jxaESM.js ./ocr.js $imgBase`</string>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>EF911C81-95CB-4419-B88F-E52C89CF7A5D</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alignment</key>
-				<integer>0</integer>
-				<key>backgroundcolor</key>
-				<string></string>
-				<key>fadespeed</key>
-				<integer>0</integer>
-				<key>fillmode</key>
-				<integer>0</integer>
-				<key>font</key>
-				<string></string>
-				<key>largetypetext</key>
-				<string>{query}</string>
-				<key>textcolor</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
-			<key>uid</key>
-			<string>13E02884-D520-4F7C-AD74-113765B523B6</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -431,6 +431,8 @@ echo `./jxaESM.js ./ocr.js $imgBase`</string>
 		</dict>
 		<key>7C322701-BD7B-49EA-978A-03C29EB3FF18</key>
 		<dict>
+			<key>note</key>
+			<string>文本翻译 快捷键</string>
 			<key>xpos</key>
 			<integer>90</integer>
 			<key>ypos</key>
@@ -445,6 +447,8 @@ echo `./jxaESM.js ./ocr.js $imgBase`</string>
 		</dict>
 		<key>B48CADD7-9F7A-423D-8049-F6FDBB31B721</key>
 		<dict>
+			<key>note</key>
+			<string>图片翻译 快捷键</string>
 			<key>xpos</key>
 			<integer>90</integer>
 			<key>ypos</key>
